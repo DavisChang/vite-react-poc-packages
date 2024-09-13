@@ -5,6 +5,7 @@ import Layout from "./layout/Layout";
 import AboutPage from "./pages/AboutPage";
 import XStatePage from "./pages/XStatePage";
 import NoMatch from "./pages/NoMatch";
+import { RecursiveList } from "./pages/RecursiveList";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route path="/" element={<XStatePage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/recursive" element={<RecursiveList />} />
           </Route>
 
           <Route path="*" element={<NoMatch />} />
