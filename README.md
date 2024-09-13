@@ -18,6 +18,12 @@ XState is particularly useful for managing workflows, component state, and busin
 ### Recursive Rendering
 This component represents a recursive rendering of a nested tree structure (topics and subtopics), allowing users to expand and collapse each topic. Key details:
 
-	1.	Component Structure: It uses a recursive component (RenderTopic) to display hierarchical topics, toggling visibility with state (isExpanded).
-	2.	HTML Semantics: The topics are rendered as a list (<ul>, <li>), keeping the structure meaningful for screen readers.
-	3.	Recursive Nested Components: Each topic renders its subtopics recursively through RenderTopic, enabling deeply nested structures to be displayed dynamically.
+1.	Component Structure: It uses a recursive component (RenderTopic) to display hierarchical topics, toggling visibility with state (isExpanded).
+2.	HTML Semantics: The topics are rendered as a list (ul, li), keeping the structure meaningful for screen readers.
+3.	Recursive Nested Components: Each topic renders its subtopics recursively through RenderTopic, enabling deeply nested structures to be displayed dynamically.
+
+### Design System TailwindCSS (CVA)
+
+A Design System is a collection of reusable components and design guidelines to maintain consistency across a product’s UI. When using Tailwind CSS, it provides utility-first class names for building UI components quickly and consistently.
+
+CVA (Class Variance Authority) enhances this by allowing you to define reusable and flexible class configurations with variants and conditional class names. It structures how you apply Tailwind classes based on props and ensures consistency in styling across your components. This is helpful for managing complex class variations, improving both scalability and maintainability.

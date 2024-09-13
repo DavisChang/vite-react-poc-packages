@@ -14,6 +14,9 @@ const Layout = () => {
           <li className="mx-5 my-2 text-slate-500 hover:text-slate-600">
             <Link to="/recursive">Recursive Component</Link>
           </li>
+          <li className="mx-5 my-2 text-slate-500 hover:text-slate-600">
+            <Link to="/design">Tailwind Design System</Link>
+          </li>
         </ul>
       </nav>
 

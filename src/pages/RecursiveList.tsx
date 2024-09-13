@@ -113,7 +113,7 @@ const RenderTopic: React.FC<RenderTopic> = ({ topic }) => {
   );
 };
 
-export const RecursiveList = () => {
+const RecursiveList = () => {
   return (
     <div>
       <h1 className="text-3xl font-bold underline">
@@ -147,3 +147,5 @@ export const RecursiveList = () => {
     </div>
   );
 };
+
+export default RecursiveList;
