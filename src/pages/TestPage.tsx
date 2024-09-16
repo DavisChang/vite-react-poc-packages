@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
-import { fetchQuestions, fetchSubmissions } from "../apis/algoexpert/questions";
+import {
+  fetchQuestions,
+  fetchSubmissions,
+} from "../services/apis/algoexpert/questions";
 
 type TQuestion = {
   id: string;
