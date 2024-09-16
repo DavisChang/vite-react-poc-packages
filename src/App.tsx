@@ -7,6 +7,8 @@ import XStatePage from "./pages/XStatePage";
 import NoMatch from "./pages/NoMatch";
 import RecursiveList from "./pages/RecursiveList";
 import DesignSystemTailwind from "./pages/DesignSystemTailwind";
+import TestPage from "./pages/TestPage";
+import ThemeContextPage from "./pages/ThemeContextPage";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/recursive" element={<RecursiveList />} />
             <Route path="/design" element={<DesignSystemTailwind />} />
+            <Route path="/theme" element={<ThemeContextPage />} />
+
+            <Route path="/test" element={<TestPage />} />
           </Route>
 
           <Route path="*" element={<NoMatch />} />

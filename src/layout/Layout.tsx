@@ -17,6 +17,9 @@ const Layout = () => {
           <li className="mx-5 my-2 text-slate-500 hover:text-slate-600">
             <Link to="/design">Tailwind Design System</Link>
           </li>
+          <li className="mx-5 my-2 text-slate-500 hover:text-slate-600">
+            <Link to="/theme">Tailwind Theme</Link>
+          </li>
         </ul>
       </nav>
 
