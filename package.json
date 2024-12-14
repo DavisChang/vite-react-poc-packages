@@ -15,7 +15,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "node env-inject.cjs && vite preview"
+    "preview": "node env-inject.cjs && vite preview",
+    "review": "python ./codeReview/main.py "
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
