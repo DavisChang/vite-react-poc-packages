@@ -10,6 +10,7 @@ import DesignSystemTailwind from "./pages/DesignSystemTailwind";
 import TestPage from "./pages/TestPage";
 import ThemeContextPage from "./pages/ThemeContextPage";
 import HookFormWithZod from "./pages/HookFormWithZod";
+import DynamicEnvironmentVariables from "./pages/DynamicEnvironmentVariables";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/theme" element={<ThemeContextPage />} />
             <Route path="/recursive" element={<RecursiveList />} />
             <Route path="/form" element={<HookFormWithZod />} />
+            <Route path="/variable" element={<DynamicEnvironmentVariables />} />
             <Route path="/test" element={<TestPage />} />
           </Route>
 

@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: .
+    environment:
+      API_ENDPOINT: "https://api.production.com"
+      LOG_LEVEL: "warn"
+    ports:
+      - "4173:4173"

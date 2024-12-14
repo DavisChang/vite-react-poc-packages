@@ -27,3 +27,10 @@ This component represents a recursive rendering of a nested tree structure (topi
 A Design System is a collection of reusable components and design guidelines to maintain consistency across a product’s UI. When using Tailwind CSS, it provides utility-first class names for building UI components quickly and consistently.
 
 CVA (Class Variance Authority) enhances this by allowing you to define reusable and flexible class configurations with variants and conditional class names. It structures how you apply Tailwind classes based on props and ensures consistency in styling across your components. This is helpful for managing complex class variations, improving both scalability and maintainability.
+
+
+### Build and Run the Docker Container
+
+```
+  docker-compose up --build
+```

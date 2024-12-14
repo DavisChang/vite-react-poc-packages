@@ -23,6 +23,9 @@ const Layout = () => {
           <li className="mx-5 my-2 text-slate-500 hover:text-slate-600">
             <Link to="/form">Hook Form (Zod)</Link>
           </li>
+          <li className="mx-5 my-2 text-slate-500 hover:text-slate-600">
+            <Link to="/variable">Dynamic Environment Variables</Link>
+          </li>
         </ul>
       </nav>
 
