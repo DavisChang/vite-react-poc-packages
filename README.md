@@ -34,3 +34,9 @@ CVA (Class Variance Authority) enhances this by allowing you to define reusable 
 ```
   docker-compose up --build
 ```
+
+### Code Review Script (ChatGPT API)
+
+```
+  python ./codeReview/main.py
+```
