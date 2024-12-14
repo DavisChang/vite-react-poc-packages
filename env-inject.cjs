@@ -12,6 +12,7 @@ const injectEnv = () => {
   };
 
   const indexHtmlContent = fs.readFileSync(indexHtmlPath, "utf-8");
+
   const updatedHtml = indexHtmlContent.replace(
     /<script id="env-script">window\.__ENV__ = \{\};<\/script>/,
     `<script id="env-script">
